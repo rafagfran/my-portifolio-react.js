@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 10vh;
     padding: 10px;
+    border: 1px solid black;
 }
 
 .header .header_container{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    width: 100%;
 }
 
 .header .header_container .title #myName{
     color: rgb(67, 67, 201);
     font-family: 'Madimi One', sans-serif;
+    
 }
 
 .header .header_container .header_navigator{

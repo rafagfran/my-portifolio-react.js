@@ -1,6 +1,7 @@
-
+.main{
+    margin-top: 2vh;
+    border: 1px solid blue;
+}
 .main_container{
-    padding: 10px;
-    
-    
+  border: 1px solid green;
 }
