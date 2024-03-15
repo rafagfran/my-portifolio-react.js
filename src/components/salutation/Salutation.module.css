@@ -1,0 +1,78 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid red;
+    width: 100%;
+    height: 85vh;
+    top: 15vh;
+    right: 0;
+    left: 0;
+}
+
+.salutation_container {
+    position: absolute;
+    
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.salutation_container .aboutMe .intro{
+    border: 1px solid red;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.salutation_container .aboutMe .intro #title{
+    margin-bottom: 20px;
+   
+}
+
+.salutation_container .aboutMe .hobbies_container{
+    padding: 10px;
+    border: 1px solid red;
+    
+}
+
+.salutation_container .aboutMe .hobbies_container #hobbies_title{
+    margin-bottom: 20px;
+
+}
+
+.salutation_container .aboutMe .hobbies_container #border_wrap{
+    padding: 10px;
+    /* background-color: black; */
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgb(196, 195, 187) 50%, black 50%);
+}
+.salutation_container .aboutMe .hobbies_container #border_wrap #hobbies_list {
+    background-color: rgb(196, 195, 187);
+    /* background-color: rgb(86, 95, 107); */
+    padding: 0 2rem;
+    border-radius: 10px;
+}
+
+
+.salutation_container .aboutMe .hobbies_container #hobbies_list .items{
+    font-size: 1.4em;
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 10px;
+}
+
+.salutation_container .avatar_image{
+    border: 1px solid red;
+    text-align: center;
+}
+
+.salutation_container .avatar_image img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    background-color: rgba(68, 71, 197, 0.363);
+}
