@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 header {
     position: fixed;
     top: 0;
@@ -13,6 +15,7 @@ header {
 }
 header h1{
     font-size: 2.5rem;
+    font-family: 'Madimi One', sans-serif;
 }
 header nav a{
     margin-left: 60px;
