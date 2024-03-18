@@ -1,15 +1,12 @@
-import style from './Main.module.css'
-import Salutation from '../../components/salutation/Salutation'
+import Home from "../../components/sections/home/Home.jsx"
 
 function Main(){
-    return(
-        <main className={style.main}>
-            <div className={style.main_container}>
-                <Salutation/>
-            </div>
-        </main>
-
-    )
+ return(
+    <>
+    
+        <Home/>
+    </>
+ )
 }
 
 export default Main

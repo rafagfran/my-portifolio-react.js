@@ -1,23 +1,23 @@
-import style from './Header.module.css'
+import Style from './Header.module.css'
+
 
 function Header(){
-    return(
-        <header className={style.header}>
-            <div className={style.header_container}>
-                <div className={style.title}>
-                    <h1 id={style.myName}> &lt; RAFAEL /&gt;</h1>
-                </div>
-                <nav className={style.header_navigator}>
-                    <ul>
-                        <li><a href='/aboutMe' title='About Me'>About Me</a></li>
-                        <li><a href='/Skills' title='Skills'>Skills</a></li>
-                        <li><a href='/Projects' title='Projects'>Projects</a></li>
-                    </ul>
-                </nav>
 
-            </div>
+    return(
+        <header>
+            <h1>&lt; RAFAEL /&gt;</h1>
+
+            <nav>
+                <a href="#" className={Style.active}>Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portifolio</a>
+                <a href="#">Contact</a>
+                
+            </nav>
         </header>
     )
+
 }
 
-export default Header;
+export default Header
