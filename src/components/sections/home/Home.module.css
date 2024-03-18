@@ -10,14 +10,14 @@
 }
 
 .content_box{
-    width: 50%;
+    width: 60%;
     color: #fff;
     display: flex;
     align-items: center;
 }
 
 .text_box h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .text_box .skills{
@@ -26,8 +26,9 @@
 
 .text_box p{
     margin: 35px 0;
-    font: 16px;
+    font: 1rem;
     color: #fff;
+    width:70%;
 }
 
 .btn{
@@ -36,7 +37,7 @@
     padding: 8px 25px;
     border:  2px solid #f37800;
     background: transparent;
-    font-size: 20px;
+    font-size: 1.4rem;
     cursor: pointer;
     border-radius: 10px;
     overflow: hidden;
@@ -71,7 +72,7 @@
 .icon_box i{
     color:#f37800;
     padding: 7px;
-    font-size: 26px;
+    font-size: 2rem;
     border: 2px solid #f37800;
     cursor: pointer;
     border-radius: 50%;
@@ -86,10 +87,10 @@
 
 .img_box{
     position: absolute;
-    width: 45%;
-    height: calc(100% - 100px);
+    width: 30%;
+    height: calc(100% - 20%);
     bottom: 0;
-    right: 20px;
+    right: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,3 +101,51 @@
     height: 100%;
 }
 
+@media (max-width:1380px){
+
+    .text_box h1{
+        font-size: 2rem;
+    }
+    .text_box p{
+        font-size: 0.9rem;
+    }
+    .icon_box i{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width:650px){
+    .img_box{
+        visibility: hidden;
+    }
+    .content_box{
+        width: 100%;
+    }
+   
+
+
+    .text_box p{
+        width:100%;
+    }
+
+
+}
+
+@media (max-width:400px){
+    .content_box{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5vh;
+        align-items: center;
+    }
+
+    .icon_box{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

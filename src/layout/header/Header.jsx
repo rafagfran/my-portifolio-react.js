@@ -10,8 +10,6 @@ function Header(){
             <nav>
                 <a href="#" className={Style.active}>Home</a>
                 <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Portifolio</a>
                 <a href="#">Contact</a>
                 
             </nav>

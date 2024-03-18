@@ -1,5 +1,5 @@
 import Style from './Home.module.css'
-import React, { useEffect, useRef } from 'react';
+import React, {useEffect, useRef } from 'react';
 import Typed from 'typed.js';
     
 function Home(){
@@ -12,6 +12,7 @@ function Home(){
       strings: ['Back-end Developer', 'IT Technician', 'Cellist'], // Lista de textos a serem digitados
       typeSpeed: 100, // Velocidade de digitação em milissegundos
       backSpeed: 100, // Velocidade de apagar em milissegundos
+      backDelay: 100,
       loop: true // Se deve repetir ou não
     };
 
@@ -40,6 +41,7 @@ function Home(){
                     </h1>
                     <p>Quis incididunt consequat occaecat pariatur aliqua consequat ex. Do occaecat esse reprehenderit laboris cillum aliqua tempor deserunt mollit ipsum do velit. Esse et qui in dolor nisi. Adipisicing qui aute ex deserunt adipisicing enim.</p>
                     <button type='button' className={Style.btn}>Dowload CV</button>
+                    
                 </div>
                 <div className={Style.img_box}>
                     <img src="src/assets/avatar.png" alt="avatar" className={Style.img}/>
